@@ -25,9 +25,9 @@ aside {
 
 .container-global {
   display: grid;
-  grid-template-rows: 10vh 85vh 5vh;
-  grid-template-columns: 60vw 40vw;
-  grid-template-areas: 'h h' 'm a' 'f f';
+  grid-template: 'h h' 10vh 
+	'm a' 85vh
+	'f f' 5vh;
 }
 
 .flex-container {
