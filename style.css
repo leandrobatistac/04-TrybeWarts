@@ -26,8 +26,8 @@ aside {
 .container-global {
   display: grid;
   grid-template: 'h h' 10vh
-		'm a' 85vh
-		'f f' 5vh;
+				'm a' 85vh
+				'f f' 5vh;
 }
 
 .flex-container {
