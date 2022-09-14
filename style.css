@@ -97,3 +97,8 @@ hr {
 .secao2 {
   flex-direction: column;
 }
+
+.secao-principal {
+  flex-direction: row;
+  justify-content: space-between;
+}
