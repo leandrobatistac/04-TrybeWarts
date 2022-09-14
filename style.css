@@ -82,14 +82,22 @@ aside {
   flex-basis: 40%;
 }
 
-#input-lastname{
+#input-lastname {
   flex-basis: 40%;
 }
 
-#input-email{
+#input-email {
   flex-basis: 40%;
 }
 
-#house{
+#house {
   flex-basis: 40%;
+}
+
+hr {
+  width: 90%;
+}
+
+.secao2 {
+  flex-direction: column;
 }
