@@ -19,11 +19,16 @@ footer {
   grid-area: f;
 }
 
+aside {
+  grid-area: a;
+}
+
 .container-global {
   display: grid;
   grid-template-rows: 10vh 85vh 5vh;
+  grid-template-columns: 60vw 40vw;
   grid-template-areas: 'h h'
-    'm m'
+    'm a'
     'f f';
 }
 
