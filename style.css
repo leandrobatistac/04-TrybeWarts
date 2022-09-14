@@ -71,5 +71,25 @@ aside {
 
 #evaluation-form {
   width: 675px;
-  flex-direction: column;
+  flex-flow: column wrap;
+}
+
+.secao1 {
+  flex-wrap: wrap;
+}
+
+#input-name {
+  flex-basis: 40%;
+}
+
+#input-lastname{
+  flex-basis: 40%;
+}
+
+#input-email{
+  flex-basis: 40%;
+}
+
+#house{
+  flex-basis: 40%;
 }
