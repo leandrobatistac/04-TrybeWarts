@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(50, 167, 145);
+  grid-area: h;
+}
+
+main {
+  background-color: white;
+  grid-area: m;
+}
+
+footer {
+  background-color: rgb(45, 46, 46);
+  grid-area: f;
+}
+
+.container-global {
+  display: grid;
+  grid-template-rows: 10vh 85vh 5vh;
+  grid-template-areas: 'h h'
+    'm m'
+    'f f';
+}
+
+.flex-container {
+  display: flex;
+}
