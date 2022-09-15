@@ -2,12 +2,14 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Franklin Gothic Medium, 'Arial Narrow', Arial, sans-serif;
+  font-family: Calibri, sans-serif;
+  background-color: lightgray;
 }
 
 header {
   background-color: rgb(50, 167, 145);
   grid-area: h;
+  box-shadow: 10px 10px 5px rgb(170, 170, 170);
 }
 
 main {
@@ -162,6 +164,12 @@ hr {
 #form-data {
   display: none;
   flex-direction: column;
+  background-color: rgb(230, 230, 230);
+  padding: 20px;
+  box-shadow: 10px 10px 5px rgb(170, 170, 170);
+  border-radius: 6px;
+  width: 50%;
+  font-family: Calibri, sans-serif;
 }
 
 #trybewarts-forms-logo {
@@ -213,7 +221,18 @@ hr {
   margin: 0;
 }
 
-#submit-btn{
+#submit-btn {
   padding: 5px;
   margin-top: 5px;
+  background-color: rgb(50, 167, 145);
+  color: white;
+}
+
+.navBtn {
+  background-color: white;
+  box-shadow: 2px 2px 1px rgb(220, 217, 217);
+}
+
+.nav {
+  box-shadow: 2px 2px 1px rgb(220, 217, 217);
 }
