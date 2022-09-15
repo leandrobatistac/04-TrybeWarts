@@ -24,6 +24,7 @@
 
 		<main class="flex-container" id="main">
       <div id="tela1">
+        <h1 id="titulo1">FORMULÁRIO DE AVALIAÇÃO</h1>
         <form class="flex-container" id="evaluation-form" action="" method="">
           <section class="flex-container secao1">
             <input id="input-name" placeholder="Nome" type="text">
@@ -39,48 +40,57 @@
 
           <hr>
           <section class="flex-container secao-principal">
-            <section class="flex-container secao2">
+            <section class="secao2">
               <label for="" id="label-family">Qual sua família?</label>
-              <div>
-                <input type="radio" name="family" id="frontend" value="Frontend">
-                <label for="frontend">Frontend</label>
-              </div>
-              <div>
-                <input type="radio" name="family" id="backend" value="Backend">
-                <label for="backend">Backend</label>
-              </div>
-              <div>
-                <input type="radio" name="family" id="fullstack" value="FullStack">
-                <label for="fullstack">FullStack</label>
+              <div class="radio1">
+                <div>
+                  <input type="radio" name="family" id="frontend" value="Frontend">
+                  <label for="frontend">Frontend</label>
+                </div>
+                <div>
+                  <input type="radio" name="family" id="backend" value="Backend">
+                  <label for="backend">Backend</label>
+                </div>
+                <div>
+                  <input type="radio" name="family" id="fullstack" value="FullStack">
+                  <label for="fullstack">FullStack</label>
+                </div>
               </div>
             </section>
 
-            <section>
+            <section class="secao3">
               <label id="label-content" for="">Qual conteúdo você está com mais vontade de aprender?</label>
-              <div>
-                <input class="subject" id="hofs" type="checkbox" value="HoFs" name="checkbox">
-                <label for="hofs">HoFs</label>
+
+              <div class="check1">
+                <div>
+                  <input class="subject" id="hofs" type="checkbox" value="HoFs" name="checkbox">
+                  <label for="hofs">HoFs</label>
+                </div>
+                <div>
+                  <input class="subject" id="jest" type="checkbox" value="Jest" name="checkbox">
+                  <label for="jest">Jest</label>
+                </div>
+                <div>
+                  <input class="subject" id="promises" type="checkbox"value="Promises"  name="checkbox">
+                  <label for="promises">Promises</label>
+                </div>
               </div>
-              <div>
-                <input class="subject" id="jest" type="checkbox" value="Jest" name="checkbox">
-                <label for="jest">Jest</label>
+
+              <div class="check2">
+                <div>
+                  <input class="subject" id="react" type="checkbox" value="React"  name="checkbox">
+                  <label for="react">React</label>
+                </div>
+                <div>
+                  <input class="subject" id="sql" type="checkbox" value="SQL" name="checkbox">
+                  <label for="sql">SQL</label>
+                </div>
+                <div>
+                  <input class="subject" id="python" type="checkbox" value="Python" name="checkbox">
+                  <label for="python">Python</label>
+                </div>
               </div>
-              <div>
-                <input class="subject" id="promises" type="checkbox"value="Promises"  name="checkbox">
-                <label for="promises">Promises</label>
-              </div>
-              <div>
-                <input class="subject" id="react" type="checkbox" value="React"  name="checkbox">
-                <label for="react">React</label>
-              </div>
-              <div>
-                <input class="subject" id="sql" type="checkbox" value="SQL" name="checkbox">
-                <label for="sql">SQL</label>
-              </div>
-              <div>
-                <input class="subject" id="python" type="checkbox" value="Python" name="checkbox">
-                <label for="python">Python</label>
-              </div>
+
             </section>
           </section>
 
@@ -100,17 +110,21 @@
             <input type="radio"  value="10" name="rate">10
           </section>
 
+          <hr>
+
           <section class="flex-container secao5">
             <label for="" class="textarea">Deixe seu comentário:</label>
             <div class="flex-container">
-              <textarea name="" id="textarea" cols="30" rows="10" maxlength="500"></textarea>
-              <p id="counter">500</p>
+              <textarea name="" id="textarea" cols="30" rows="5" maxlength="500"></textarea>
             </div>
+            <p id="counter">500</p>
           </section>
         </form>
 
+        <hr>
+
         <div id="confirma">
-          <section>
+          <section class="secao6">
             <label id="label-infos" for="agreement">Você concorda com o uso das informações acima?</label>
             <input type="checkbox" name="concordo" id="agreement">
           </section>
@@ -129,7 +143,7 @@
         </div>
 		</main>
 
-		<aside>
+		<aside id="aside">
 			<img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" height="500px" alt="">
 		</aside>
 

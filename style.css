@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Franklin Gothic Medium, 'Arial Narrow', Arial, sans-serif;
 }
 
 header {
@@ -10,8 +11,11 @@ header {
 }
 
 main {
-  background-color: white;
   grid-area: m;
+  width: 60vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
 }
 
 footer {
@@ -22,7 +26,13 @@ footer {
 }
 
 aside {
+  display: flex;
   grid-area: a;
+  width: 40vw;
+  flex-flow: column wrap;
+  flex-direction: column;
+  align-self: stretch;
+  justify-self: center;
 }
 
 .container-global {
@@ -74,35 +84,63 @@ aside {
 
 .secao1 {
   flex-wrap: wrap;
+  justify-content: center;
+}
+
+.secao2 {
+  flex-direction: column;
+  width: 30%;
+}
+
+.secao3 {
+  width: 61%;
+}
+
+.secao4 {
+  padding: 10px;
+  margin: auto;
+}
+
+.secao5 {
+  display: flex;
+  flex-direction: column;
+}
+
+.secao6 {
+  margin: auto;
 }
 
 #input-name {
-  flex-basis: 40%;
+  width: 250px;
+  padding: 8px;
+  margin: 5px;
 }
 
 #input-lastname {
-  flex-basis: 40%;
+  width: 250px;
+  padding: 8px;
+  margin: 5px;
 }
 
 #input-email {
-  flex-basis: 40%;
+  width: 250px;
+  padding: 8px;
+  margin: 5px;
 }
 
 #house {
-  flex-basis: 40%;
+  width: 250px;
+  padding: 8px;
+  margin: 5px;
 }
 
 hr {
   width: 90%;
 }
 
-.secao2 {
-  flex-direction: column;
-}
-
 .secao-principal {
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .counter {
@@ -124,4 +162,58 @@ hr {
 #form-data {
   display: none;
   flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+  margin: auto;
+}
+
+#tela1 {
+  background-color: rgb(230, 230, 230);
+  padding: 20px;
+  box-shadow: 10px 10px 5px rgb(170, 170, 170);
+  border-radius: 6px;
+}
+
+#titulo1 {
+  text-align: center;
+  font-size: 130%;
+}
+
+.check1 {
+  display: inline-block;
+  width: 130px;
+  padding: 10px;
+}
+
+.check2 {
+  display: inline-block;
+  width: 130px;
+  padding: 10px;
+}
+
+.radio1 {
+  padding: 10px;
+  width: 130px;
+  margin: 0;
+}
+
+.textarea {
+  margin: auto;
+}
+
+#textarea {
+  margin: auto;
+  width: 100%;
+}
+
+#counter {
+  align-self: end;
+  font-size: 80%;
+  margin: 0;
+}
+
+#submit-btn{
+  padding: 5px;
+  margin-top: 5px;
 }
