@@ -110,3 +110,18 @@ hr {
   color: gray;
 }
 
+#main {
+  display: flex;
+  flex-direction: column;
+}
+
+#confirma {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+#form-data {
+  display: none;
+  flex-direction: column;
+}

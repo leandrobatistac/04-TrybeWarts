@@ -22,98 +22,111 @@
 			</section>
 		</header>
 
-		<main class="flex-container">
-			<form class="flex-container" id="evaluation-form" action="" method="">
-				<section class="flex-container secao1">
-					<input id="input-name" placeholder="Nome" type="text">
-					<input id="input-lastname" placeholder="Sobrenome" type="text">
-					<input id="input-email" placeholder="Email" type="text">
-					<select name="" id="house">
-						<option id="gitnoria-house" value="Gitnória">Gitnória</option>
-						<option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
-						<option id="corvinode-house" value="Corvinode">Corvinode</option>
-						<option id="pytherina-house" value="Pytherina">Pytherina</option>
-					</select>
-				</section>
+		<main class="flex-container" id="main">
+      <div id="tela1">
+        <form class="flex-container" id="evaluation-form" action="" method="">
+          <section class="flex-container secao1">
+            <input id="input-name" placeholder="Nome" type="text">
+            <input id="input-lastname" placeholder="Sobrenome" type="text">
+            <input id="input-email" placeholder="Email" type="text">
+            <select name="" id="house">
+              <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+              <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+              <option id="corvinode-house" value="Corvinode">Corvinode</option>
+              <option id="pytherina-house" value="Pytherina">Pytherina</option>
+            </select>
+          </section>
 
-				<hr>
-				<section class="flex-container secao-principal">
-					<section class="flex-container secao2">
-						<label for="" id="label-family">Qual sua família?</label>
-						<div>
-							<input type="radio" name="family" id="frontend" value="Frontend">
-							<label for="frontend">Frontend</label>
-						</div>
-						<div>
-							<input type="radio" name="family" id="backend" value="Backend">
-							<label for="backend">Backend</label>
-						</div>
-						<div>
-							<input type="radio" name="family" id="fullstack" value="FullStack">
-							<label for="fullstack">FullStack</label>
-						</div>
-					</section>
+          <hr>
+          <section class="flex-container secao-principal">
+            <section class="flex-container secao2">
+              <label for="" id="label-family">Qual sua família?</label>
+              <div>
+                <input type="radio" name="family" id="frontend" value="Frontend">
+                <label for="frontend">Frontend</label>
+              </div>
+              <div>
+                <input type="radio" name="family" id="backend" value="Backend">
+                <label for="backend">Backend</label>
+              </div>
+              <div>
+                <input type="radio" name="family" id="fullstack" value="FullStack">
+                <label for="fullstack">FullStack</label>
+              </div>
+            </section>
 
-					<section>
-						<label id="label-content" for="">Qual conteúdo você está com mais vontade de aprender?</label>
-						<div>
-							<input class="subject" id="hofs" type="checkbox" value="HoFs">
-							<label for="hofs">HoFs</label>
-						</div>
-						<div>
-							<input class="subject" id="jest" type="checkbox" value="Jest">
-							<label for="jest">Jest</label>
-						</div>
-						<div>
-							<input class="subject" id="promises" type="checkbox"value="Promises">
-							<label for="promises">Promises</label>
-						</div>
-						<div>
-							<input class="subject" id="react" type="checkbox" value="React">
-							<label for="react">React</label>
-						</div>
-						<div>
-							<input class="subject" id="sql" type="checkbox" value="SQL">
-							<label for="sql">SQL</label>
-						</div>
-						<div>
-							<input class="subject" id="python" type="checkbox" value="Python">
-							<label for="python">Python</label>
-						</div>
-					</section>
-				</section>
+            <section>
+              <label id="label-content" for="">Qual conteúdo você está com mais vontade de aprender?</label>
+              <div>
+                <input class="subject" id="hofs" type="checkbox" value="HoFs" name="checkbox">
+                <label for="hofs">HoFs</label>
+              </div>
+              <div>
+                <input class="subject" id="jest" type="checkbox" value="Jest" name="checkbox">
+                <label for="jest">Jest</label>
+              </div>
+              <div>
+                <input class="subject" id="promises" type="checkbox"value="Promises"  name="checkbox">
+                <label for="promises">Promises</label>
+              </div>
+              <div>
+                <input class="subject" id="react" type="checkbox" value="React"  name="checkbox">
+                <label for="react">React</label>
+              </div>
+              <div>
+                <input class="subject" id="sql" type="checkbox" value="SQL" name="checkbox">
+                <label for="sql">SQL</label>
+              </div>
+              <div>
+                <input class="subject" id="python" type="checkbox" value="Python" name="checkbox">
+                <label for="python">Python</label>
+              </div>
+            </section>
+          </section>
 
-				<hr>
+          <hr>
 
-        <section class="flex-container secao4">
-          <label for="" id="label-rate">Como você avalia a Trybewarts?</label>
-          <input type="radio"  value="1" name="rate">1
-          <input type="radio"  value="2" name="rate">2
-          <input type="radio"  value="3" name="rate">3
-          <input type="radio"  value="4" name="rate">4
-          <input type="radio"  value="5" name="rate">5
-          <input type="radio"  value="6" name="rate">6
-          <input type="radio"  value="7" name="rate">7
-          <input type="radio"  value="8" name="rate">8
-          <input type="radio"  value="9" name="rate">9
-          <input type="radio"  value="10" name="rate">10
-        </section>
+          <section class="flex-container secao4">
+            <label for="" id="label-rate">Como você avalia a Trybewarts?</label>
+            <input type="radio"  value="1" name="rate">1
+            <input type="radio"  value="2" name="rate">2
+            <input type="radio"  value="3" name="rate">3
+            <input type="radio"  value="4" name="rate">4
+            <input type="radio"  value="5" name="rate">5
+            <input type="radio"  value="6" name="rate">6
+            <input type="radio"  value="7" name="rate">7
+            <input type="radio"  value="8" name="rate">8
+            <input type="radio"  value="9" name="rate">9
+            <input type="radio"  value="10" name="rate">10
+          </section>
 
-        <section class="flex-container secao5">
-          <label for="" class="textarea">Deixe seu comentário:</label>
-          <div class="flex-container">
-            <textarea name="" id="textarea" cols="30" rows="10" maxlength="500"></textarea>
-            <p id="counter">500</p>
-          </div>
-        </section>
+          <section class="flex-container secao5">
+            <label for="" class="textarea">Deixe seu comentário:</label>
+            <div class="flex-container">
+              <textarea name="" id="textarea" cols="30" rows="10" maxlength="500"></textarea>
+              <p id="counter">500</p>
+            </div>
+          </section>
+        </form>
 
-				<section>
-					<label id="label-infos" for="agreement">Você concorda com o uso das informações acima?</label>
-					<input type="checkbox" name="concordo" id="agreement">
-				</section>
+        <div id="confirma">
+          <section>
+            <label id="label-infos" for="agreement">Você concorda com o uso das informações acima?</label>
+            <input type="checkbox" name="concordo" id="agreement">
+          </section>
+          <button id="submit-btn" type="submit" disabled>Enviar</button>
+        </div>
+      </div>
 
-        <button id="submit-btn" type="submit" disabled>Enviar</button>
-			</form>
+        <div id="form-data">
+          <p class="p1">Nome: </p>
+          <p class="p2">Email: </p>
+          <p class="p3">Casa: </p>
+          <p class="p4">Família: </p>
+          <p class="p5">Matérias: </p>
+          <p class="p6">Avaliação: </p>
+          <p class="p7">Observações: </p>
+        </div>
 		</main>
 
 		<aside>
