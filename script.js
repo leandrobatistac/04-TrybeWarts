@@ -80,7 +80,7 @@ const texto = document.getElementById('textarea');
 let string = '';
 
 // ===================================================================================
-// Função para substituir página
+// Função para substituir página 1/2
 
 const p1 = document.querySelector('.p1');
 const p2 = document.querySelector('.p2');
